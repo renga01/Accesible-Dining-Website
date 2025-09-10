@@ -1,0 +1,64 @@
+
+/* Add this at the top to import a stylish font, e.g., 'Poppins' */
+/* css/style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #222;
+}
+
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('../images/restaurant-accessible.jpg') no-repeat center center/cover;
+  padding: 6em 2em;
+  text-align: center;
+  color: #fff;
+  background-color: #444;
+}
+
+.cta-button {
+  padding: 1em 2em;
+  background-color: #ffaa00;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #eee;
+  font-size: 0.9em;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
+  background-color: #fff;
+}
+
+.content h2 {
+  color: #003366;
+  margin-top: 1.5em;
+}
+
+.content ul {
+  padding-left: 1.5em;
+  list-style-type: disc;
+}

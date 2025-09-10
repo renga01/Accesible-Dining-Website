@@ -1,0 +1,52 @@
+<!-- feedback.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Share Your Experience | Inclusive Cuisine</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Inclusive Cuisine</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="restaurants.html">Accessible Restaurants</a>
+      <a href="feedback.html">Share Experience</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Share Your Dining Experience</h2>
+    <p>We'd love to hear about your accessible dining experiences in Pune. Help others discover welcoming restaurants by sharing your story.</p>
+
+    <form class="feedback-form" action="#" method="POST">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email (optional)</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="restaurant">Restaurant Name</label>
+      <input type="text" id="restaurant" name="restaurant" required />
+
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location" required />
+
+      <label for="accessibility">Accessibility Features Noticed</label>
+      <textarea id="accessibility" name="accessibility" rows="3" required></textarea>
+
+      <label for="experience">Describe Your Experience</label>
+      <textarea id="experience" name="experience" rows="4" required></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Inclusive Cuisine | Accessibility for All</p>
+  </footer>
+</body>
+</html>
